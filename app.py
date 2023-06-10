@@ -78,16 +78,7 @@ if chart == 'About':
      st.subheader('Stages of Liver Disease :-')
      image = Image.open('liver images.jpg')
      st.image(image, caption='Liver Disease Stages')
-     st.write("""P-198 Liver Disease Prediction  :
-
-
-    1.Mr.Omprasad Kolhal
-    2.Ms.Varsha Reddy
-    3.Mr.Hemant Shinde
-    4.Mr.Karan Patil
-    5.Ms.Madhuri Varpe
-    6.Mr.Junaid Pasha
-               """)
+  
 
 if chart == 'Dataset':
         st.write(patients)
